@@ -29,4 +29,4 @@ A ship need to have significant speed in order for the rudder to become effectiv
 
 *A ship can turn up to 45 degrees for each 'Turn-speed' cm it travels*
 
-**Example: ** A ship cabable of moving 12 cm this round and having a *Turn-speed* of 4, can turn up to 3 times. One turn each time it travels 4 cm. 
+**Example:** A ship cabable of moving 12 cm this round and having a *Turn-speed* of 4, can turn up to 3 times. One turn each time it travels 4 cm. 
