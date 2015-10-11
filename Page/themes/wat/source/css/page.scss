@@ -1,0 +1,12 @@
+.post-list .media {
+        margin-bottom: 40px;    
+}
+
+body {
+    background:url(images/background.jpg);
+    background-size:cover;
+}
+
+@media (min-width:1281) {
+    background:url(images/background-wide.jpg); 
+}
