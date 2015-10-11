@@ -1,12 +1,39 @@
+
+$text-color: white;
+$gray-base: #2b2d32;
+$gray-dark: #191c1e;
+
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+    
 .post-list .media {
         margin-bottom: 40px;    
 }
 
+.content {
+    margin-top:60px;   
+    margin-bottom: 20px;
+    padding-top:15px;
+    
+    min-height:500px;
+    
+    background-color: $gray-dark;
+    opacity: 0.9;
+    border-radius: 5px;
+    border:1px solid #974f2b;
+}
+
+.jumbotron {
+    background-color:$gray-dark;
+    border:2px solid $gray-darker;
+}
+
 body {
-    background:url(images/background.jpg);
+    background:url(/images/background.jpg) no-repeat center center fixed;
     background-size:cover;
 }
 
 @media (min-width:1281) {
-    background:url(images/background-wide.jpg); 
+    body {
+        background:url(/images/background-wide.jpg); 
+    }
 }

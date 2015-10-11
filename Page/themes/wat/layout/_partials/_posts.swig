@@ -3,7 +3,7 @@
     <li class="media">
         <div class="media-left media-top">
             <a href="#">
-              <img class="media-object" src="images/battleship.jpg" alt="battleship cartoon" style="width:100px;">
+              <img class="media-object" src="images/battleship.png" alt="battleship cartoon" style="width:100px;">
             </a>
         </div>
       <div class="media-body">
