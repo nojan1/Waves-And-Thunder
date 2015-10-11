@@ -9,13 +9,13 @@
       <div class="media-body">
         <h4 class="media-heading">{{post.title}}</h4>
         {% if post.excerpt %}
-			{{ post.excerpt }}...
+			{{ post.excerpt }}
         {% else %}
 			{{ post.content }}
         {% endif %}
         
         <div>
-            <span class="pull-left">{{post.date.format('dddd, MMMM Do YYYY, h:mm:ss a')}}</span>
+            <span class="pull-left timestamp">{{post.date.format('dddd, MMMM Do YYYY, h:mm:ss a')}}</span>
             <a href="{{ url_for(post.path) }}" class="pull-right">Read more</a>
         </div>
       </div>
