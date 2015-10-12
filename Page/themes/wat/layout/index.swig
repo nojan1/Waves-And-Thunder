@@ -2,9 +2,9 @@
 
 {% block primary %}
     <div class="jumbotron">
-        <h1>Hello</h1>
+        <h1>Welcome!</h1>
         <p class="lead">
-            Bla bla bla bla
+            This is the main page for the wonderful miniature game of <i>Waves And Thunder!</i>
         </p>
     </div>
 
