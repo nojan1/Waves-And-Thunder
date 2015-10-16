@@ -4,27 +4,43 @@ General goes here.
 
 ## Damage boxes
 
-## Hits penetrating armor plating
+The damage boxes are divided into the three different categories of damage *Hull*, *Gun* and *Engineering*. Each represent different kinds of systems on the ship.
+
+The different categories (arranged as columns) are the divided into three regions *Armor plating*, *Penetrating hits* and *Critial damage*. 
+
+### Taking damage
+
+Whenever a ship is required to take an unspeciefied type of damage (for instance from being hit by shooting) the player is required to roll a D20 for every point of damage taken. These rolls will determine which damage category takes the hit.
+The valus to roll are represented on the profile card under the columns of damage boxes. If the value of the roll is not included that means that all categories takes a hit.
+
+Once determined remove the required number of damage boxes from the correct column starting from the top.
+
+### Hits penetrating armor plating
 
 Any time a damage point is allocated past the hull plating zone this means that the round has penetrated the armor and is wreaking havoc on the inside.
 
 Immediatly take a morale check.
 
-## Hull damage
+### Hits in the critical zone
 
-Damage to the hull can be catastrophic. If the damage boxes for hull damage ever runs out the hull will suffer a structure collapse and the ship will sink!
+For each damage allocated roll on the *Critical damage table*. Any extra damage caused should be allocated to the same damage column. If this is not possible follow the rules under *Running out of boxes*.
 
-## Gun damage
+### Running out of boxes
 
-0 boxes = Gun crew dead / loading mechanisms detroyed. May not fire for rest of game.
+If their are no more boxes in a category to remove the damage will spill over to the column on the right.
 
-## Engine damage
+In addition to that, the column will be considered dead. What this means for a specific category is summarized in the table bellow
+A dead column can not be repaired!
 
-No more damage boxes = Engines destroyed and can not be repaired.
+| Category | Effect    |
+|:--------:|:---------:|
+| Gun | The gun is destroyed and may not fire for the rest of the game.|
+| Engineering | The engineering systems are in ruins and the engine room is flooded! The ship may not move or turn for the rest of the game. |
+| Hull | Massive hull damage! Water is rushing in everywhere! The structure is collapsing! The ship is sinking! It is out of the game. |
 
 ## Critical damage table
 
-| #  |  Hull | Gun | Engine |
+| #  |  Hull | Gun | Engineering |
 |:--:|:-------------|--------------|-------------|
 | 1 - 10  | The damage control teams was able to contain and further damage  | - | - |
 | 11 |              | | Rudder jammed! Ship can not turn the next round. |
