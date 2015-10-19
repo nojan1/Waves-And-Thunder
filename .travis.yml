@@ -7,6 +7,10 @@ notifications:
 		on_success: change
 		on_failure: always
 
+language: node_js
+node_js:
+	- "4.1"
+
 install:
 	- cd Page
 	- npm install -g gulp
