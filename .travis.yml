@@ -1,0 +1,17 @@
+branches:
+	only:
+		- deploy
+
+notifications:
+	email:
+		on_success: change
+		on_failure: always
+
+install:
+	- cd Page
+	- npm install -g gulp
+	- npm install
+	
+script:
+	- cd Page
+	- gulp build
