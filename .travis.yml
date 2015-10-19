@@ -1,21 +1,21 @@
 branches:
-	only:
-		- deploy
+   only:
+      - deploy
 
 notifications:
-	email:
-		on_success: change
-		on_failure: always
+   email:
+      on_success: change
+      on_failure: always
 
 language: node_js
 node_js:
-	- "4.1"
+   - "4.1"
 
 install:
-	- cd Page
-	- npm install -g gulp
-	- npm install
-	
+   - cd Page
+   - npm install -g gulp
+   - npm install
+
 script:
-	- cd Page
-	- gulp build
+   - cd Page
+   - gulp build
