@@ -16,7 +16,7 @@ gulp.task('copy-rules', function(){
                .pipe(gulp.dest('source/Rules/'));
 });
 
-gulp.task('copy-rules:watch', function(){
+gulp.task('copy-rules:watch', ['copy-rules'], function(){
     gulp.watch(rulesdir, ['copy-rules']);
 });
 
