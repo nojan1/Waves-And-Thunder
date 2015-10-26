@@ -10,7 +10,7 @@ The different categories (arranged as columns) are the divided into three region
 
 ### Taking damage
 
-Whenever a ship is required to take an unspeciefied type of damage (for instance from being hit by shooting) the player is required to roll a D20 for every point of damage taken. These rolls will determine which damage category takes the hit.
+Whenever a ship is required to take an unspeciefied type of damage (for instance from being hit by shooting) the player is required to roll a D10 for every point of damage taken. These rolls will determine which damage category takes the hit.
 The valus to roll are represented on the profile card under the columns of damage boxes. If the value of the roll is not included that means that all categories takes a hit.
 
 Once determined remove the required number of damage boxes from the correct column starting from the top.
