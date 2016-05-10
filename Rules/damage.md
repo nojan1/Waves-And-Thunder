@@ -27,14 +27,18 @@ For each damage allocated roll on the *Critical damage table*. Any extra damage 
 
 ### Running out of boxes
 
-If their are no more boxes in a category to remove the damage will spill over to the column on the right.
+If their are no more boxes in a column to remove the damage will spill over to the column on the right.
 
-In addition to that, the column will be considered dead. What this means for a specific category is summarized in the table bellow
+In addition to that, the column will be considered dead.
 A dead column can not be repaired!
+
+A dead column in the hull or engineering categories have no direct effect. For guns that means that the specific gun represented by that column may not fire for the rest of the game.
+
+If an entire category is filled consult the table bellow
 
 | Category | Effect    |
 |:--------:|:---------:|
-| Gun | The gun is destroyed and may not fire for the rest of the game.|
+| Gun | All guns have been destroyed! On a roll of 10+ there is an explosion in the powder room immediatly causing 5 points of damage |
 | Engineering | The engineering systems are in ruins and the engine room is flooded! The ship may not move or turn for the rest of the game. |
 | Hull | Massive hull damage! Water is rushing in everywhere! The structure is collapsing! The ship is sinking! It is out of the game. |
 
